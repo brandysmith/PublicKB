@@ -10,29 +10,27 @@
 
 * __Network Exchange__
 
-Network Exchange, which provides self-service, automated interconnection for application components within CenturyLink Hybrid IT environments, has been released into production in a limited availability. It is available to serve use cases that had previously been addressed with CenturyLink Cloud-Network Services (CNS) in a limited set of six data centers - LO1, TR1, NJ2, DC2, CH3 and SC8. For more information on this new product, please visit the product page at https://www.ctl.io/network-exchange and visit https://www.ctl.io/knowledge-base/network/ for KBs including the Getting Started Guide.
+Network Exchange, which provides self-service, automated interconnection for application components within CenturyLink Hybrid IT environments, has been released into production in a limited availability. It is available to serve use cases that had previously been addressed with CenturyLink Cloud-Network Services (CNS) in a limited set of six data centers - LO1, TR1, NJ2, DC2, CH3 and SC8. For more information on this new product, please visit the [product page](/network-exchange) and visit the [Knowledge Base page](https://www.ctl.io/knowledge-base/network/) for documentation, including a Getting Started Guide.
 
-* __Status.ctl.io__
+### Status.ctl.io
 
 CenturyLink Cloud Status Chrome Extension: Real-time updates of status.ctl.io
 
-Status.ctl.io provides the status of the CenturyLink Cloud platform and the available services. You can use this extension to see the real-time, overall status for the platform and it's services. The icon will show a blue dot if there is a planned maintenance in progress, or an orange or red icon if a service is temporarily disrupted. Hovering over the icon will give you a brief description of the current status. To get more detailed information, click on the icon to go to the front page of the status application!
-
-https://chrome.google.com/webstore/detail/centurylink-cloud-status/abhpdblgadmelnffnnfddppakgbfimmj?hl=en
+[Status.ctl.io](https://status.ctl.io/) provides the status of the CenturyLink Cloud platform and the available services. You can use this extension to see the real-time, overall status for the platform and its services. The icon will show a blue dot if there is a planned maintenance in progress, or an orange or red icon if a service is temporarily disrupted. Hovering over the icon will give you a brief description of the current status. To get more detailed information, click on the icon to go to the front page of the status application. The Chrome extension is available [here](https://chrome.google.com/webstore/detail/centurylink-cloud-status/abhpdblgadmelnffnnfddppakgbfimmj?hl=en). 
 
 ### Enhancements (1)
 
-* __Cloud Application Manager__
+**Cloud Application Manager**
 
 We would like to share with you what’s new in our next release.
 
-Application Lifecycle Management
+**Application Lifecycle Management**
 
 - Auto discover brownfield instances in Microsoft Azure
 
 - Starting this release, Cloud Application Manager will auto-discover your existing Microsoft Azure Virtual Machine instances that have been provisioned directly using the provider console outside of Cloud Application Manager. With this capability, even if some of your teams are using Microsoft Azure Console to provision instances, you can import them into Cloud Application Manager and manage their lifecycle and view them as part of the Admin Console Cloud Reports. The discovered instances will exist only as an instance. Cloud Application Manager does not create a corresponding Deployment Policy as part of registration process.
 
-Organization and Cost Center Dashboards
+**Organization and Cost Center Dashboards**
 
 - Organization and Cost Center administrators will now have a Dashboard view.
 
@@ -40,21 +38,22 @@ Organization and Cost Center Dashboards
 
 - Organization Dashboard provides real time usage of total infrastructure spend across cloud providers, Provider usage and costs by cost center.
 
-AWS Management Console Access
+**AWS Management Console Access**
 
 - Starting this release, after configuring AWS account within Cloud Application Manager, users can directly navigate to their AWS Management console with Single Sign On. Cloud Application Manager leverages the IAM policy that was setup initially and allows users to logon to AWS Management Console without requiring additional authentication. The users who has access to the AWS provider account within Cloud Application Manager will be able to leverage the single sign on functionality.
 
-Managed Services Anywhere
-- Managed Operating System on Microsoft Azure-
-Starting this release, Cloud Application Manager customers can get Managed Services on their workloads residing in Microsoft Azure Cloud. Managed Services on Microsoft Azure includes Access, Configuration, Change, Monitor, Incident and Patch management of Microsoft Azure Virtual Machine instances residing in any region. For further information on this service, please visit https://www.ctl.io/cloud-application-manager/managed-services-anywhere/
+**Managed Services Anywhere**
 
-Additional monitoring capabilities for Managed Operating System on AWS
+- Managed Operating System on Microsoft Azure-
+Starting this release, Cloud Application Manager customers can get Managed Services on their workloads residing in Microsoft Azure Cloud. Managed Services on Microsoft Azure includes Access, Configuration, Change, Monitor, Incident, and Patch management of Microsoft Azure Virtual Machine instances residing in any region. For further information on this service, please visit https://www.ctl.io/cloud-application-manager/managed-services-anywhere/
+
+**Additional monitoring capabilities for Managed Operating System on AWS**
 
 - CenturyLink Operators now can configure additional Cloud Watch alerts for Managed Operating System on AWS. As you are aware, part of providing support to Managed Operating System customers, our automated monitoring process is constantly monitoring customer’s infrastructure and alerting our Support personnel to address any issues. Our automated monitoring process relies on an agent installed on the AWS EC2 instance as part of “Delegate OS Management” functionality. We now can use AWS Cloud Watch to get additional insights into the managed instance. If you would like to take advantage of these additional monitoring capabilities, please reach out to us using our support options within Cloud Application Manager or write us at CloudSupport@centurylink.com
 
-Cloud Optimization
+**Cloud Optimization**
 
-- AWS Resale in the US is Live! From the AWS Provider, users will finally see radio buttons for requesting new and existing AWS accounts for consolidated billing and platform level support. Users have the option to migrate existing accounts or create new ones, after agreeing to terms. Actual processing of the request could take anywhere between 2-4 weeks.
+- AWS Resale in the US is Live! From the AWS Provider, users have access to radio buttons for requesting new and existing AWS accounts for consolidated billing and platform level support. Users have the option to migrate existing accounts or create new ones, after agreeing to terms. Actual processing of the request could take anywhere between 2-4 weeks.
 
 Impact
 
@@ -62,4 +61,4 @@ Impact
 
 Support
 
-- As always if you have any questions, please feel free to write us at CloudSupport@CenturyLink.com. In addition to reaching us via email, you can now reach us via Phone at the following numbers: 844-874-5167 (US only), 00-800-7475-7474 (UK) or 001-800-7475-7474 (Singapore). For further information please visit https://www.ctl.io/cloud-application-manager/#Support
+- As always if you have any questions, please feel free to write us at [CloudSupport@CenturyLink.com](mailto:CloudSupport@CenturyLink.com). In addition to reaching us via email, you can now reach us via Phone at the following numbers: 844-874-5167 (US only), 00-800-7475-7474 (UK) or 001-800-7475-7474 (Singapore). For further information please visit our [support page](/cloud-application-manager/#Support).
